@@ -276,12 +276,7 @@ pip install allure-pytest
 pytest test_checkout.py --alluredir=allure-results
 ```
 
-### **Step 3: Install Allure Commandline**
-
-* Mac: `brew install allure`
-* Windows: Download binary from [https://docs.qameta.io/allure/#_get_started](https://docs.qameta.io/allure/#_get_started)
-
-### **Step 4: Generate Report**
+### **Step 3: Generate Report**
 
 ```bash
 allure serve allure-results
